@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مدرسة القرآن الكريم | النور المبين</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS الأساسي للمشروع -->
+    <link rel="stylesheet" href="mn.css">
+
+
+    <!-- ==========================================
+         Welcome Screen CSS
+    =========================================== -->
+
+    <style>
+
+        /* ==========================================
+           شاشة الترحيب
+        =========================================== */
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         شاشة الترحيب
+    =================================================== -->
+
+    <div id="welcome-screen">
+
+
+        <!-- النجوم -->
+
+        <div class="welcome-stars">
+
+            <span>★</span>
+            <span>✦</span>
+            <span>★</span>
+            <span>✦</span>
+            <span>★</span>
+            <span>✦</span>
+            <span>★</span>
+            <span>✦</span>
+
+        </div>
+
+
+        <!-- القمر -->
+
+        <div class="welcome-moon"></div>
+
+
+        <!-- الضوء -->
+
+        <div class="welcome-light"></div>
+
+
+        <!-- صندوق الترحيب -->
+
+        <div class="welcome-box">
+
+
+            <img
+                src="photo_2025-03-15_17-22-16.jpg"
+                class="welcome-logo"
+                alt="شعار مدرسة القرآن الكريم"
+            >
+
+
+            <h1 id="typing"></h1>
+
+
+            <p class="ayah">
+                ﴿ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا ﴾
+            </p>
+
+
+            <div class="loader">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ==================================================
+         Header
+    =================================================== -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+
+            <a href="#home" class="logo">
+
+                <span>
+                    مدرسة القرآن الكريم
+                </span>
+
+            </a>
+
+
+            <nav class="nav-menu" id="navbar">
+
+                <ul>
+
+                    <li>
+
+                        <a
+                            href="#home"
+                            class="active"
+                        >
+                            الرئيسية
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="#about">
+                            عن المدرسة
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="#courses">
+                            الدورات
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="#schedule">
+                            الجدول
+                        </a>
+
+                    </li>
+
+
+                    <li>
+
+                        <a href="#contact">
+                            التسجيل
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuBtn"
+                type="button"
+                aria-label="فتح القائمة"
+            >
+                ☰
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         Hero
+    =================================================== -->
+
+    <section
+        class="hero"
+        id="home"
+    >
+
+
+        <div class="sky-effects">
+
+            <div class="moon">
+                ☾
+            </div>
+
+
+            <span class="star star-1">★</span>
+            <span class="star star-2">★</span>
+            <span class="star star-3">★</span>
+            <span class="star star-4">★</span>
+            <span class="star star-5">★</span>
+            <span class="star star-6">★</span>
+            <span class="star star-7">★</span>
+            <span class="star star-8">★</span>
+
+        </div>
+
+
+        <div class="container">
+
+            <div class="hero-content">
+
+
+                <h1>
+                    مدرسة القرآن الكريم
+                </h1>
+
+
+                <div
+                    class="subtitle-trial"
+                    id="trialText"
+                >
+                    ورتل القرآن ترتيلاً
+                </div>
+
+
+                <p>
+
+                    نُعنى بتعليم كتاب الله عز وجل
+                    حفظاً وتجويداً وتفسيراً
+                    على يد نخبة من المعلمين المتقنين.
+
+                </p>
+
+
+                <p>
+
+                    لدينا برامج تعليمية لجميع الفئات والأعمار.
+
+                </p>
+
+
+                <div class="hero-btns">
+
+
+                    <a
+                        href="#courses"
+                        class="btn btn-primary"
+                    >
+                        استعرض الدورات
+                    </a>
+
+
+                    <a
+                        href="mohamedHany.html"
+                        class="btn btn-outline"
+                    >
+
+                        <i class="fa-solid fa-user-graduate"></i>
+
+                        الخاتمين
+
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="btn btn-outline"
+                    >
+                        سجل الآن
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- ==================================================
+         About
+    =================================================== -->
+
+    <section
+        class="section-padding"
+        id="about"
+    >
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                عن مدرسة القرآن
+            </h2>
+
+
+            <div class="about-grid">
+
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-book-quran"></i>
+
+                    <h3>
+                        حفظ القرآن
+                    </h3>
+
+                    <p>
+
+                        برامج متدرجة تساعد الطالب على حفظ
+                        كتاب الله ومراجعته بطريقة منظمة.
+
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-microphone"></i>
+
+                    <h3>
+                        التجويد والتلاوة
+                    </h3>
+
+                    <p>
+
+                        تعلم أحكام التجويد ومخارج الحروف
+                        والتطبيق العملي أثناء التلاوة.
+
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-chalkboard-user"></i>
+
+                    <h3>
+                        معلمون متخصصون
+                    </h3>
+
+                    <p>
+
+                        تعليم ومتابعة على يد معلمين
+                        متخصصين في القرآن الكريم.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         Courses
+    =================================================== -->
+
+    <section
+        class="section-padding"
+        id="courses"
+    >
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                الدورات التعليمية
+            </h2>
+
+
+            <div class="courses-grid">
+
+
+                <div class="course-card">
+
+                    <div class="course-img">
+
+                        <i class="fa-solid fa-quran"></i>
+
+                    </div>
+
+
+                    <div class="course-body">
+
+                        <h3>
+                            دورة حفظ القرآن الكريم
+                        </h3>
+
+                        <p>
+
+                            برنامج متكامل لحفظ القرآن الكريم
+                            مع المتابعة والمراجعة المستمرة.
+
+                        </p>
+
+
+                        <span class="badge">
+                            جميع المستويات
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="course-card">
+
+                    <div class="course-img">
+
+                        <i class="fa-solid fa-microphone-lines"></i>
+
+                    </div>
+
+
+                    <div class="course-body">
+
+                        <h3>
+                            دورة أحكام التجويد
+                        </h3>
+
+                        <p>
+
+                            تعلم مخارج الحروف والصفات
+                            وكل أحكام التجويد النظرية والتطبيقية.
+
+                        </p>
+
+
+                        <span class="badge">
+                            مستوى متقدم
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="course-card">
+
+                    <div class="course-img">
+
+                        <i class="fa-solid fa-child-reaching"></i>
+
+                    </div>
+
+
+                    <div class="course-body">
+
+                        <h3>
+                            براعم القرآن للأطفال
+                        </h3>
+
+                        <p>
+
+                            تأسيس الأطفال على قراءة الحروف
+                            العربية وحفظ السور القصيرة بطريقة ممتعة.
+
+                        </p>
+
+
+                        <span class="badge">
+                            أعمار 6-12 سنة
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="course-card">
+
+                    <div class="course-img">
+
+                        <i class="fa-solid fa-music"></i>
+
+                    </div>
+
+
+                    <div class="course-body">
+
+                        <h3>
+                            دورة المقامات الصوتية
+                        </h3>
+
+                        <p>
+
+                            تعلم نغمات المقامات العربية
+                            في تلاوة القرآن الكريم بأداء صحيح ومؤثر.
+
+                        </p>
+
+
+                        <span class="badge">
+                            مجاني للطلاب المتميزين
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         Schedule
+    =================================================== -->
+
+    <section
+        class="section-padding"
+        id="schedule"
+    >
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                جدول الحصص
+            </h2>
+
+
+            <div class="schedule-filter">
+
+
+                <button
+                    class="filter-btn active"
+                    type="button"
+                >
+                    الكل
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    type="button"
+                >
+                    الأطفال
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    type="button"
+                >
+                    الشباب
+                </button>
+
+
+                <button
+                    class="filter-btn"
+                    type="button"
+                >
+                    التجويد
+                </button>
+
+
+            </div>
+
+
+            <div class="schedule-table-wrapper">
+
+
+                <table class="schedule-table">
+
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                اليوم
+                            </th>
+
+                            <th>
+                                الدورة
+                            </th>
+
+                            <th>
+                                المعلم
+                            </th>
+
+                            <th>
+                                الوقت
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <tr>
+
+                            <td>
+                                السبت
+                            </td>
+
+                            <td>
+                                حفظ القرآن
+                            </td>
+
+                            <td>
+                                الشيخ محمد
+                            </td>
+
+                            <td>
+                                5:00 مساءً
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                الأحد
+                            </td>
+
+                            <td>
+                                أحكام التجويد
+                            </td>
+
+                            <td>
+                                الشيخ أحمد
+                            </td>
+
+                            <td>
+                                6:00 مساءً
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                الاثنين
+                            </td>
+
+                            <td>
+                                براعم القرآن
+                            </td>
+
+                            <td>
+                                الأستاذ محمود
+                            </td>
+
+                            <td>
+                                4:00 مساءً
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                الأربعاء
+                            </td>
+
+                            <td>
+                                المقامات الصوتية
+                            </td>
+
+                            <td>
+                                الشيخ عبدالرحمن
+                            </td>
+
+                            <td>
+                                7:00 مساءً
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                الخميس
+                            </td>
+
+                            <td>
+                                مراجعة وحفظ
+                            </td>
+
+                            <td>
+                                الشيخ محمد
+                            </td>
+
+                            <td>
+                                5:30 مساءً
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         Contact
+    =================================================== -->
+
+    <section
+        class="section-padding"
+        id="contact"
+    >
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                التسجيل في المدرسة
+            </h2>
+
+
+            <form
+                class="contact-form"
+                id="contactForm"
+            >
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        اسم الطالب
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="اكتب اسم الطالب"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        
+                        رقم الهاتف
+                    </label>
+
+                    <input
+                    
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="اكتب رقم الهاتف"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="course">
+                        اختر الدورة
+                    </label>
+
+                    <select
+                        id="course"
+                        name="course"
+                        required
+                    >
+
+                        <option value="">
+                            اختر الدورة
+                        </option>
+
+                        <option value="hifz">
+                            حفظ القرآن الكريم
+                        </option>
+
+                        <option value="tajweed">
+                            أحكام التجويد
+                        </option>
+
+                        <option value="children">
+                            براعم القرآن للأطفال
+                        </option>
+
+                        <option value="maqamat">
+                            المقامات الصوتية
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary full-width"
+                >
+                    إرسال طلب التسجيل
+                </button>
+
+
+                <div
+                    class="form-message"
+                    id="formMessage"
+                ></div>
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         Footer
+    =================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                عمل فريق البرمجة بمدرسة القرآن الكريم
+            </p>
+
+            <p>
+                © 2026 جميع الحقوق محفوظة
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================================================
+         JavaScript
+    =================================================== -->
+
+    <script>
+
+        /* ==========================================
+           شاشة الترحيب - Typing Effect
+        =========================================== */
+
+        const typingElement =
+            document.getElementById("typing");
+
+
+        const welcomeText =
+            "مرحبًا بكم في مدرسة القرآن الكريم";
+
+
+        let typingIndex = 0;
+
+
+        function typeWelcomeText() {
+
+            if (
+                typingIndex <
+                welcomeText.length
+            ) {
+
+                typingElement.textContent +=
+                    welcomeText.charAt(typingIndex);
+
+                typingIndex++;
+
+                setTimeout(
+                    typeWelcomeText,
+                    90
+                );
+
+            }
+
+        }
+
+
+        typeWelcomeText();
+
+
+        /* ==========================================
+           إخفاء شاشة الترحيب
+        =========================================== */
+
+        window.addEventListener(
+            "load",
+            function () {
+
+                setTimeout(
+                    function () {
+
+                        const welcomeScreen =
+                            document.getElementById(
+                                "welcome-screen"
+                            );
+
+
+                        welcomeScreen.classList.add(
+                            "hide"
+                        );
+
+
+                    },
+                    4000
+                );
+
+            }
+        );
+
+
+        /* ==========================================
+           القائمة في الموبايل
+        =========================================== */
+
+        const menuBtn =
+            document.getElementById("menuBtn");
+
+
+        const navbar =
+            document.getElementById("navbar");
+
+
+        if (
+            menuBtn &&
+            navbar
+        ) {
+
+            menuBtn.addEventListener(
+                "click",
+                function () {
+
+                    navbar.classList.toggle(
+                        "active"
+                    );
+
+
+                    if (
+                        navbar.classList.contains(
+                            "active"
+                        )
+                    ) {
+
+                        menuBtn.textContent = "✕";
+
+                    } else {
+
+                        menuBtn.textContent = "☰";
+
+                    }
+
+                }
+            );
+
+        }
+
+
+        /* ==========================================
+           إغلاق القائمة عند الضغط على رابط
+        =========================================== */
+
+        const navLinks =
+            document.querySelectorAll(
+                ".nav-menu a"
+            );
+
+
+        navLinks.forEach(
+            function (link) {
+
+                link.addEventListener(
+                    "click",
+                    function () {
+
+                        if (navbar) {
+
+                            navbar.classList.remove(
+                                "active"
+                            );
+
+                        }
+
+
+                        if (menuBtn) {
+
+                            menuBtn.textContent =
+                                "☰";
+
+                        }
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* ==========================================
+           Schedule Filter
+        =========================================== */
+
+        const filterButtons =
+            document.querySelectorAll(
+                ".filter-btn"
+            );
+
+
+        filterButtons.forEach(
+            function (button) {
+
+                button.addEventListener(
+                    "click",
+                    function () {
+
+
+                        filterButtons.forEach(
+                            function (btn) {
+
+                                btn.classList.remove(
+                                    "active"
+                                );
+
+                            }
+                        );
+
+
+                        this.classList.add(
+                            "active"
+                        );
+
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* ==========================================
+           Registration Form
+        =========================================== */
+
+        const contactForm =
+            document.getElementById(
+                "contactForm"
+            );
+
+
+        const formMessage =
+            document.getElementById(
+                "formMessage"
+            );
+
+
+        if (contactForm) {
+
+            contactForm.addEventListener(
+                "submit",
+                function (event) {
+
+                    event.preventDefault();
+
+
+                    if (formMessage) {
+
+                        formMessage.textContent =
+                            "تم إرسال طلب التسجيل بنجاح 🌙";
+
+                    }
+
+
+                    contactForm.reset();
+
+                }
+            );
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
