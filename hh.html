@@ -1,113 +1,330 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
+
 <head>
-    <link rel="stylesheet" href="mohammed.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الصفحة الثانية</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>جنى صبحي الصافي</title>
+
+    <link rel="stylesheet" href="mohammed.css">
 </head>
+
 <body>
-    
-          <!-- =========================
+
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+
+    <nav class="navbar">
+
+        <img
+            src="Artboard 1500-1.png"
+            alt="شعار مدرسة القرآن الكريم"
+        >
+
+        <ul class="navbar-list">
+
+            <li>
+                <a href="home">
+                    مدرسة القرآن الكريم
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ==========================================
          أزرار التحكم
-    ========================== -->
+    =========================================== -->
+
     <div class="controls-wrapper">
 
         <!-- الوضع الليلي -->
-        <button class="clean-theme-btn" id="theme-toggle">
-            <span>🌙</span>
-            الوضع ليلي
+
+        <button
+            class="clean-theme-btn"
+            id="theme-toggle"
+            type="button"
+        >
+
+            <span class="icon">🌙</span>
+
+            <span>
+                الوضع الليلي
+            </span>
+
         </button>
+
 
         <!-- زر Open -->
-        <button class="clean-theme-btn" id="open">
+
+        <button
+            class="clean-theme-btn hide"
+            id="open"
+            type="button"
+        >
+
             open
+
         </button>
+
 
         <!-- زر Close -->
-        <button class="content-close-btn" id="close">
+
+        <button
+            class="clean-theme-btn"
+            id="close"
+            type="button"
+        >
+
             close
+
         </button>
 
-    </div
-    <nav class="navbar">
-        
-        <img src="Artboard 1500-1.png">
-        <ul class="navbar-list">
-            <li><a href="home">مدرسةالقرءان الكريم</a></li>
+    </div>
+
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside class="side-bar">
+
+        <ul>
+
+            <li>
+                <a href="kk.html">
+                    فاطمه محروس الحارتي
+                </a>
+            </li>
+
+            <li>
+                <a href="fatma.html">
+                    فاطمه نصر الجندى
+                </a>
+            </li>
+
+            <li>
+                <a href="Abd Al Rahman.html">
+                    عبدالرحمن صبحي
+                </a>
+            </li>
+
+            <li>
+                <a href="mahmoudfrg.html">
+                    محمود محمد فرج
+                </a>
+            </li>
+
+            <li>
+                <a href="mohamedHany.html">
+                    محمد هاني رضوان
+                </a>
+            </li>
+
+            <li>
+                <a href="Mahmoud Al sied.html">
+                    محمود محمد السيد
+                </a>
+            </li>
+
+            <li>
+                <a href="bb.html">
+                    ابتسام محمد فرج
+                </a>
+            </li>
+
+            <li>
+                <a href="mm.html">
+                    ريتاج إسلام
+                </a>
+            </li>
+
+            <li>
+                <a href="l.html">
+                    ألاء محمد السيد
+                </a>
+            </li>
+
+            <li>
+                <a href="m.html">
+                    فاطمة عبدالنعيم
+                </a>
+            </li>
+
+            <li>
+                <a href="h.html">
+                    منة محمد السيد
+                </a>
+            </li>
+
         </ul>
-    </nav>
-    <div class="slide-show"> 
-            <img src="photo_2025-03-28_16-17-11.jpg">
-            <h1>جنى صبحى الصافي</h1>
-            <h2>المعلومات الشخصية
-            <p>الأسم:جنى صبحى الصافى</p>
-            <p>السن:13</p>
-            <p> 2022/6/تاريخ دخول المدرسه:22</p>
-            <p>رقم الاتمام:3</p>
-            <p>تاريخ الاتمام2024/6/10</p>
-            
-        </ui>
-        </div>
 
-    </h2>
-    </div>
-    <div class="table">
-    <table>
-        <tr>
-         <th>اسم الشيوخ</th>  
-        </tr>
-        <tr>
-           <td>حسن الكاتب</td>
-        </tr>
-        <tr>
-           <td>ممدوح حماد</td>
-        </tr>
-        <tr>
-           <td>عبداللله عبدالسميع</td>
-        </tr>
-        <tr>
-            <td>أحمد عبد الشافي</td>
-         </tr>
-         <tr>
-            <td>صلاح سلام </td>
-         </tr>
-       </table>
-    </div>
-    <button class="hide" id="open">open</button>
-    <button id="close">close</button>
-
-    <div class="side-bar">
-    <ul>
-        <li><a href="kk.html">فاطمه محروس الحارتي</a></li>
-        <li><a href="fatma.html">فاطمه نصر الجندى</a></li>
-        <li><a href="Abd Al Rahman.html">عبدالرحمن صبحي</a></li>
-        <li><a href="mahmoudfrg.html">محمود محمد فرج</a></li>
-        <li><a href="mohamedHany.html">محمد هاني رضوان</a></li>
-        <li><a href="Mahmoud Al sied.html">محمود محمد السيد</a></li>
-        <li><a href="bb.html">ابتسام محمد فرج</a></li>
-        <li><a href="mm.html">ريتاج اسلام</a></li>
-        <li><a href="l.html">ألاء محمد السيد</a></li>
-        <li><a href="m.html">فاطمة عبدالنعيم</a></li>
-        <li><a href="h.html">منةمحمدالسيد</a></li>
+    </aside>
 
 
-    </ul>
-    </div>
+    <!-- ==========================================
+         PROFILE
+    =========================================== -->
+
+    <main>
+
+        <section class="slide-show">
+
+            <img
+                src="photo_2025-03-28_16-17-11.jpg"
+                alt="صورة جنى صبحي الصافي"
+            >
+
+
+            <h1>
+                جنى صبحي الصافي
+            </h1>
+
+
+            <h2>
+                المعلومات الشخصية
+            </h2>
+
+
+            <ul>
+
+                <li>
+                    الاسم: جنى صبحي الصافي
+                </li>
+
+                <li>
+                    السن: 13
+                </li>
+
+                <li>
+                    تاريخ دخول المدرسة: 22/6/2022
+                </li>
+
+                <li>
+                    رقم الإتمام: 3
+                </li>
+
+                <li>
+                    تاريخ الإتمام: 10/6/2024
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ==========================================
+             TABLE
+        =========================================== -->
+
+        <section class="table">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>
+                            أسماء الشيوخ
+                        </th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>
+                            حسن الكاتب
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            ممدوح حماد
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            عبد الله عبد السميع
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            أحمد عبد الشافي
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            صلاح سلام
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
     <footer>
+
         <div class="content">
+
             <div class="mm">
-                <h5>فريق العمل (بنين) </h5>
-          <ul>
-                  
-                    <li>محمد علاء عزت</li>
-                    <li>أحمد اسلام</li>
-                    <li>محمد نصر الجندي</li>
+
+                <h5>
+                    فريق العمل (بنين)
+                </h5>
+
+                <ul>
+
+                    <li>
+                        محمد علاء عزت
+                    </li>
+
+                    <li>
+                        أحمد اسلام
+                    </li>
+
+                    <li>
+                        محمد نصر الجندي
+                    </li>
+
                 </ul>
+
+            </div>
+
         </div>
-         
-        </div>
+
     </footer>
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
     <script src="main.js"></script>
+
 </body>
+
 </html>

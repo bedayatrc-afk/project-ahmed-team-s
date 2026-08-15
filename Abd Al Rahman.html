@@ -1,119 +1,345 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
+
 <head>
-    <link rel="stylesheet" href="mohammed.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الصفحة الرابعة</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>عبدالرحمن صبحي</title>
+
+    <link rel="stylesheet" href="mohammed.css">
 </head>
+
 <body>
-     <!-- =========================
+
+
+    <!-- ==========================================
+         NAVBAR
+    =========================================== -->
+
+    <nav class="navbar">
+
+        <img
+            src="Artboard 1500-1.png"
+            alt="شعار مدرسة القرآن الكريم"
+        >
+
+        <ul class="navbar-list">
+
+            <li>
+                <a href="https://web.facebook.com/groups/454354929232133/posts/1119478222719797/?_rdc=1&_rdr#">
+                    مدرسة القرآن الكريم
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ==========================================
          أزرار التحكم
-    ========================== -->
+    =========================================== -->
+
     <div class="controls-wrapper">
 
+
         <!-- الوضع الليلي -->
-        <button class="clean-theme-btn" id="theme-toggle">
-            <span>🌙</span>
-            الوضع ليلي
+
+        <button
+            class="clean-theme-btn"
+            id="theme-toggle"
+            type="button"
+        >
+
+            <span class="icon">🌙</span>
+
+            <span>
+                الوضع الليلي
+            </span>
+
         </button>
+
 
         <!-- زر Open -->
-        <button class="clean-theme-btn" id="open">
+
+        <button
+            class="clean-theme-btn hide"
+            id="open"
+            type="button"
+        >
+
             open
+
         </button>
+
 
         <!-- زر Close -->
-        <button class="content-close-btn" id="close">
+
+        <button
+            class="clean-theme-btn"
+            id="close"
+            type="button"
+        >
+
             close
+
         </button>
 
-    </div
-    <nav class="navbar">
-        
-        <img src="Artboard 1500-1.png">
-        <ul class="navbar-list">
-            <li><a href="https://web.facebook.com/groups/454354929232133/posts/1119478222719797/?_rdc=1&_rdr#">مدرسةالقرءان الكريم</a></li>
+    </div>
+
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside class="side-bar">
+
+        <ul>
+
+            <li>
+                <a href="bb.html">
+                    ابتسام محمد فرج
+                </a>
+            </li>
+
+            <li>
+                <a href="hh.html">
+                    جنى صبحى الصافى
+                </a>
+            </li>
+
+            <li>
+                <a href="fatma.html">
+                    فاطمه نصر الجندى
+                </a>
+            </li>
+
+            <li>
+                <a href="Mahmoud Al sied.html">
+                    محمود محمد السيد
+                </a>
+            </li>
+
+            <li>
+                <a href="mohamedHany.html">
+                    محمد هاني رضوان
+                </a>
+            </li>
+
+            <li>
+                <a href="mahmoudfrg.html">
+                    محمود محمد فرج
+                </a>
+            </li>
+
+            <li>
+                <a href="kk.html">
+                    فاطمه محروس الحارتي
+                </a>
+            </li>
+
+            <li>
+                <a href="mm.html">
+                    ريتاج إسلام
+                </a>
+            </li>
+
+            <li>
+                <a href="l.html">
+                    ألاء محمد السيد
+                </a>
+            </li>
+
+            <li>
+                <a href="m.html">
+                    فاطمة عبدالنعيم
+                </a>
+            </li>
+
+            <li>
+                <a href="h.html">
+                    منة محمد السيد
+                </a>
+            </li>
+
         </ul>
-    </nav>
-<div class="slide-show">
-    <img src="photo_٢٠٢٥-٠٣-٢٨_١٥-٣١-٤٩.jpg">
-    <h1>عبدالرحمن صبحي</h1>
 
-    <h2>المعلومات الشخصيه
-        <ui>
-            <p>الأسم:عبدالرحمن صبحي</p>
-            <p>السن :13</p>
-            <p> 2022/6/تاريخ دخول المدرسه:22</p>
-            <p>تاريخ ختم القرءان:10/2/2025</p>
-            <p>رقم الاتمام:12</p>
+    </aside>
 
-        </ui>
-    </h2>
-</div>
-<button class="hide" id="open">open</button>
-<button id="close">close</button>
-<div class="side-bar">
-    <ul>
-        <li><a href="bb.html">ابتسام محمد فرج</a></li>
-        <li><a href="hh.html">جنى صبحى الصافى</a></li>
-        <li><a href="fatma.html">فاطمه نصر الجندى</a></li>
-        <li><a href="Mahmoud Al sied.html">محمود محمد السيد</a></li>
-        <li><a href="mohamedHany.html">محمد هاني رضوان</a></li>
-        <li><a href="mahmoudfrg.html">محمود محمد فرج</a></li>
-        <li><a href="kk.html">فاطمه محروس الحارتي</a></li>
-        <li><a href="mm.html">ريتاج اسلام</a></li>
-        <li><a href="l.html">ألاء محمد السيد</a></li>
-        <li><a href="m.html">فاطمة عبدالنعيم</a></li>
-        <li><a href="h.html">منةمحمدالسيد</a></li>
 
-    </ul>
-    </div>
-    
-    <div class="table">
-        <table>
-            <tr>
-                <th>اسم الشيخ</th>
-            </tr>
-            <tr>
-                <td>أحمد ناصف</td>
-            </tr>
-            <tr>
-                <td>عبد العزيز</td>
-            </tr>
-            <tr>
-                <td>عبد الحميد البرهومي</td>
-            </tr>
-            <tr>
-                <td>عبد الحميد</td>
-            </tr>
-            <tr>
-                <td>حسن الكاتب</td>
-            </tr>
-            <tr>
-                <td>أحمد محمود</td>
-            </tr>
-            <tr>
-                <td>محمد شحاته</td>
-            </tr>
-        </table>
-        
+    <!-- ==========================================
+         PROFILE
+    =========================================== -->
 
-</div>
-<footer>
-    <div class="content">
-        <div class="mm">
-            <h5>فريق العمل (بنين) </h5>
-       <ul>
-                  
-                    <li>محمد علاء عزت</li>
-                    <li>أحمد اسلام</li>
-                    <li>محمد نصر الجندي</li>
+    <main>
+
+        <section class="slide-show">
+
+            <img
+                src="photo_٢٠٢٥-٠٣-٢٨_١٥-٣١-٤٩.jpg"
+                alt="صورة عبدالرحمن صبحي"
+            >
+
+
+            <h1>
+                عبدالرحمن صبحي
+            </h1>
+
+
+            <h2>
+                المعلومات الشخصية
+            </h2>
+
+
+            <ul>
+
+                <li>
+                    الاسم: عبدالرحمن صبحي
+                </li>
+
+                <li>
+                    السن: 13
+                </li>
+
+                <li>
+                    تاريخ دخول المدرسة: 22/6/2022
+                </li>
+
+                <li>
+                    تاريخ ختم القرآن: 10/2/2025
+                </li>
+
+                <li>
+                    رقم الإتمام: 12
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ==========================================
+             TABLE
+        =========================================== -->
+
+        <section class="table">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            اسم الشيخ
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+                        <td>
+                            أحمد ناصف
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            عبد العزيز
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            عبد الحميد البرهومي
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            عبد الحميد
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            حسن الكاتب
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            أحمد محمود
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            محمد شحاته
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer>
+
+        <div class="content">
+
+            <div class="mm">
+
+                <h5>
+                    فريق العمل (بنين)
+                </h5>
+
+                <ul>
+
+                    <li>
+                        محمد علاء عزت
+                    </li>
+
+                    <li>
+                        أحمد اسلام
+                    </li>
+
+                    <li>
+                        محمد نصر الجندي
+                    </li>
+
                 </ul>
-    </div>
-     
-    </div>
+
+            </div>
+
+        </div>
+
     </footer>
+
+
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
     <script src="main.js"></script>
+
 </body>
+
 </html>
